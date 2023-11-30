@@ -31,7 +31,7 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-~~~
+```
 
 <html>
     <head>
@@ -60,12 +60,13 @@ Publish the website in the LocalHost.
                 display: inline;
                 position: relative;
                 color: red;
-                top: 190px;
+                top: 200px;
 
                 font-family: Georgia;
                 font-size: medium;
             }
             .booktitle{
+                color:antiquewhite;
                 font-family: 'Courier New', Courier, monospace;
                 font-size: larger;
                 text-align: center;
@@ -77,13 +78,13 @@ Publish the website in the LocalHost.
             .id{
                 width: 400px;
                 position: relative;
-                top: 180px;
+                top: 210px;
 
             }
             .pub{
                 font-size: medium;
                 position: relative;
-                top: 155px;
+                top: 165px;
                 left: 330px;
             }
             .ed{
@@ -91,10 +92,11 @@ Publish the website in the LocalHost.
                 font-size: medium;
                 font-family: Verdana;
                 position: relative;
-                top: 85px;
+                top: 115px;
 
             }
             .subtitle{
+                color:aquamarine;
                 font-family: 'Tahoma';
                 font-size: large;
                 position: relative;
@@ -102,7 +104,7 @@ Publish the website in the LocalHost.
             }
             .mypic{
                 position: relative;
-                top: 135px;
+                top: 170px;
                 left: 260px;
                 width: 100px;
                 height: 100px;
@@ -127,16 +129,16 @@ Publish the website in the LocalHost.
                 with HTML,CSSand JS.
             </div>
             <div class="mypic">
-                <img src=Photo.jpg" width="130" height="145" alt="">
+                <img src=Photo.jpg width="130" height="145" alt="">
             </div>
             <div class="id">
                 <hr style="color: orange;">
             </div>
             <div class="author">
-                <p><bPRASANA V</b></p>
+                <p><b>PRASANA V</b></p>
             </div>
             <div class="pub">
-                Saveetha publication
+                SEC
             </div>
             <div class="ed">
                 <b>Latest Edition</b>
@@ -145,11 +147,12 @@ Publish the website in the LocalHost.
 
     </body>
 </html>
-~~~
+```
 
 
 ## OUTPUT:
-![Alt text](<Screenshot (11).png>)
+![Alt text](bookdesign.png)
+
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
